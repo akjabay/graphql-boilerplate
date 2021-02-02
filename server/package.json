@@ -1,0 +1,35 @@
+{
+  "name": "graphql-boilerplate",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start:pro": "node app.js",
+    "start": "nodemon app.js",
+    "start:dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "elasticsearch",
+    "express"
+  ],
+  "author": "asem",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "connect-session-sequelize": "^7.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "sharp": "^0.26.2"
+  }
+}
